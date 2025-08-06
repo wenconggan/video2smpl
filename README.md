@@ -5,11 +5,10 @@
 
 ```bash
 cd video2smpl
-conda create -y -n gvhmr python=3.10
-conda activate gvhmr
+conda create -y -n video2smpl python=3.10
+conda activate video2smpl
 pip install -r requirements.txt
 pip install -e .
-# to install gvhmr in other repo as editable, try adding "python.analysis.extraPaths": ["path/to/your/package"] to settings.json
 ```
 
 ## Inputs & Outputs
