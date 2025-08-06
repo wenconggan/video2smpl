@@ -49,7 +49,7 @@ inputs/checkpoints/
 Demo entries are provided in `tools/demo`. Use `-s` to skip visual odometry if you know the camera is static, otherwise the camera will be estimated by DPVO.
 We also provide a script `demo_folder.py` to inference a entire folder.
 ```shell
-python tools/demo/demo.py --video=example_video/2.mp4 -s
+python tools/demo/demo.py --video=example_video/tennis.mp4 -s
 python tools/demo/demo_folder.py -f inputs/demo/folder_in -d outputs/demo/folder_out -s
 ```
 
